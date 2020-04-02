@@ -2,10 +2,10 @@
 
 /* Constants */
 pub const MIN_SCORE_CALL: usize = 40;
-pub const MIN_SCORE_COUNT_PSEUDO: usize = 60;
-pub const MIN_SCORE_COUNT_ALIGNMENT: usize = 60;
+pub const MIN_SCORE_COUNT_PSEUDO: usize = 20;
+pub const MIN_SCORE_COUNT_ALIGNMENT: usize = 20;
 pub const GENE_CONSENSUS_THRESHOLD: f64 = 0.5;
-pub const ALLELE_CONSENSUS_THRESHOLD: f64 = 0.1;
+pub const ALLELE_CONSENSUS_THRESHOLD: f64 = 0.0;
 
 pub const EM_ITERS: usize = 2000;
 pub const EM_REL_TH: f64 = 5e-4;

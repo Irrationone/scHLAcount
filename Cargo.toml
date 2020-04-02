@@ -7,8 +7,8 @@ authors = ["Charlotte Darby <cdarby@jhu.edu>", "Ian Fiddes <ian.t.fiddes@gmail.c
 bio = "0.25"
 clap = "*"
 csv = "1"
-debruijn = { git = "https://github.com/10XGenomics/rust-debruijn" }
-debruijn_mapping = { git = "https://github.com/10XGenomics/rust-pseudoaligner.git", rev = "ae4aadbce921d3233e3bd9b3ee8a8466804b20ad" }
+debruijn = { git = "https://github.com/10XGenomics/rust-debruijn", rev = "9c7caf1903b15758c8e9c7fa546b6f3fcf438fdc" }
+debruijn_mapping = { git = "https://github.com/Irrationone/rust-pseudoaligner.git", rev = "af4854b53b974240b17997dad3a8d123f353689d" }
 failure = "*"
 human-panic = "1.0.1"
 itertools = "0.8"
@@ -16,7 +16,7 @@ log = "*"
 regex = "1"
 
 # todo: switch back to crates.io version after next release of rust-htslib
-rust-htslib = { git = "https://github.com/rust-bio/rust-htslib.git", rev="18072e0faf909ed19da4d1226a35c239a4b4292e" }
+rust-htslib = { git = "https://github.com/Irrationone/rust-htslib.git" }
 
 serde = "1.0"
 simplelog = "0.5.0"
